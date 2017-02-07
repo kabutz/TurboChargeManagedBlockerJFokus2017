@@ -1,3 +1,6 @@
+/*
+ * Copyright 2014, Heinz Kabutz - All Rights Reserved
+ */
 package eu.javaspecialists.performance.managedblocker.issue223;
 
 import java.util.*;

@@ -1,3 +1,6 @@
+/*
+ * Copyright 2014, Heinz Kabutz - All Rights Reserved
+ */
 package eu.javaspecialists.performance.managedblocker;
 
 import java.math.*;
