@@ -9,12 +9,16 @@ import java.util.*;
 import java.util.concurrent.*;
 
 public class Fibonacci {
+    private final BigInteger RESERVED = BigInteger.valueOf(-1000);
+
     /*
-    demo1: test100_000_000() time = 45935
-    demo2: test100_000_000() time = 24572
-    demo3: test100_000_000() time = 19569
-    demo4: test100_000_000() time = 13323
-     */
+        demo1: test100_000_000() time = 45935
+        demo2: test100_000_000() time = 24572
+        demo3: test100_000_000() time = 19569
+        demo4: test100_000_000() time = 13323
+        demo5: test100_000_000() time = 9707
+
+         */
     public BigInteger f(int n) {
         Map<Integer, BigInteger> cache = new ConcurrentHashMap<>();
         cache.put(0, BigInteger.ZERO);
@@ -23,8 +27,8 @@ public class Fibonacci {
     }
 
     private BigInteger f(int n, Map<Integer, BigInteger> cache) {
-        BigInteger result = cache.get(n);
-        if (result == null) {
+        BigInteger result = cache.putIfAbsent(n, RESERVED);
+        if (result == null) { // we won the race
             int half = (n + 1) / 2;
 
             ForkJoinTask<BigInteger> f0_task = new RecursiveTask<BigInteger>() {
@@ -49,7 +53,20 @@ public class Fibonacci {
                     System.out.println("fib(" + n + ") took " + time);
                 }
             }
-            cache.put(n, result);
+            synchronized (RESERVED) {
+                cache.put(n, result);
+                RESERVED.notifyAll();
+            }
+        } else if (result == RESERVED) { // we must wait
+            try {
+                synchronized (RESERVED) {
+                    while((result = cache.get(n)) == RESERVED) {
+                        RESERVED.wait();
+                    }
+                }
+            } catch (InterruptedException e) {
+                throw new CancellationException("interrupted");
+            }
         }
         return result;
     }
