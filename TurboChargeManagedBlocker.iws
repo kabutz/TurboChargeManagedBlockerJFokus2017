@@ -27,13 +27,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FibonacciTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/forkjoinfib/src/eu/javaspecialists/performance/managedblocker/FibonacciTest.java">
+      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/forkjoinfib/src/eu/javaspecialists/performance/managedblocker/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="572">
+              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding>
-                <element signature="e#0#2646#0" expanded="true" />
+                <element signature="e#0#904#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -787,19 +787,19 @@
       <workItem from="1486111222013" duration="1132000" />
       <workItem from="1486278903113" duration="8056000" />
       <workItem from="1486389837566" duration="972000" />
-      <workItem from="1486464813378" duration="1892000" />
+      <workItem from="1486464813378" duration="2218000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FibonacciTest_(1) - 2017.02.05 at 10h 16m 39s.xml">
-      <configuration name="FibonacciTest (1)" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2017.02.07 at 13h 09m 36s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciTest_(1) - 2017.02.05 at 10h 18m 59s.xml">
-      <configuration name="FibonacciTest (1)" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2017.02.07 at 13h 11m 37s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciTest_(1) - 2017.02.05 at 10h 27m 55s.xml">
-      <configuration name="FibonacciTest (1)" configurationId="JUnit" />
+    <history-entry file="FibonacciTest - 2017.02.07 at 13h 13m 45s.xml">
+      <configuration name="FibonacciTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FibonacciTest_(1) - 2017.02.05 at 10h 39m 42s.xml">
       <configuration name="FibonacciTest (1)" configurationId="JUnit" />
@@ -824,7 +824,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19795000" />
+    <option name="totallyTimeSpent" value="20121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -848,13 +848,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.84" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.83916664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66496164" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6641667" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25989583" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25989583" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1125,23 +1125,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forkjoinfib/src/eu/javaspecialists/performance/managedblocker/Fibonacci.java">
+    <entry file="file://$PROJECT_DIR$/forkjoinfib/src/eu/javaspecialists/performance/managedblocker/FibonacciTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="2444">
+          <caret line="47" column="6" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
           <folding>
-            <marker date="1486469320000" expanded="true" signature="0:60" ph="/.../" />
-            <marker date="1486469320000" expanded="true" signature="194:560" ph="{...}" />
+            <marker date="1486469438000" expanded="true" signature="0:60" ph="/.../" />
+            <marker date="1486469438000" expanded="true" signature="124:203" ph="..." />
+            <marker date="1486469438000" expanded="true" signature="279:910" ph="{...}" />
+            <marker date="1486469438000" expanded="true" signature="952:1208" ph="{...}" />
+            <marker date="1486469438000" expanded="true" signature="1254:1521" ph="{...}" />
+            <marker date="1486469438000" expanded="true" signature="1568:1838" ph="{...}" />
+            <marker date="1486469438000" expanded="true" signature="1884:2328" ph="{...}" />
+            <marker date="1486469438000" expanded="true" signature="2376:2649" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forkjoinfib/src/eu/javaspecialists/performance/managedblocker/FibonacciTest.java">
+    <entry file="file://$PROJECT_DIR$/forkjoinfib/src/eu/javaspecialists/performance/managedblocker/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="572">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
-            <element signature="e#0#2646#0" expanded="true" />
+            <element signature="e#0#904#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
