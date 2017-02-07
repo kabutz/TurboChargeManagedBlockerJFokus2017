@@ -3,13 +3,15 @@
  */
 package eu.javaspecialists.performance.managedblocker;
 
-import java.math.*;
+import eu.javaspecialists.performance.math.*;
+
 import java.util.concurrent.*;
 
 public class Fibonacci {
     /*
     demo1: test100_000_000() time = 45935
     demo2: test100_000_000() time = 24572
+    demo3: test100_000_000() time = 19569
      */
     public BigInteger f(int n) {
         if (n == 0) return BigInteger.ZERO;
